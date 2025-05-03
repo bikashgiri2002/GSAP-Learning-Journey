@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+.scroll-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #2613d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1{
+    background-color: #2613d1;
+}
+#section2{
+    background-color: #4d3bed;
+}
+#section1{
+    background-color: #150884;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #000;
+}

@@ -1,52 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  color: #121111;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #363030;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #c7baba;
+  box-shadow: 0 2px 5px rgba(40, 39, 39, 0.5);
+  color: #121111;
 }
 .logo {
-    display: flex;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    gap: 50px;
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  color: #121111;
+  gap: 50px;
 }
-.logo img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.logo h2{
+    color: #121111;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 .nav-links ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #121111;
 }
-main{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #2e1711, #442915);
-    gap: 20px;
+.nav-links a{
+    color: #121111;
 }
-main h1{
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 2px rgba(233, 227, 227, 0.5);
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 20px;
 }
+main h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(23, 22, 22, 0.5);
+}
+p{
+  color: #121111;
+  margin-top: 100px;
+}
+.desktop {
+  position: relative;
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.desktop .desktop-setup {
+  position: relative;
+  height: 400px;
+  width: 50%;
+}
+.desktop .dashboard {
+  position: absolute;
+  height: 230px;
+  width: 38%;
+  top: 5%;
+  left: 30.7%;
+  z-index: 2;
+}
+
